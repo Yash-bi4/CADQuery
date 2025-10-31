@@ -1,0 +1,13 @@
+transformers>=4.41
+datasets>=2.19
+peft>=0.11
+trl>=0.9
+accelerate>=0.30
+bitsandbytes>=0.43 ; platform_system != "Windows"
+
+unsloth[cuda]>=2024.10 ; platform_system != "Windows"
+unsloth>=2024.10        ; platform_system == "Windows"
+
+cadquery>=2.4
+numpy>=1.26
+pyyaml>=6.0
